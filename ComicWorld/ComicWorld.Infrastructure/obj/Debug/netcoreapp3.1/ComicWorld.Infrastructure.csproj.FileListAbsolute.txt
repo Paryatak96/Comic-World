@@ -1,0 +1,16 @@
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\bin\Debug\netcoreapp3.1\ComicWorld.Infrastructure.deps.json
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\bin\Debug\netcoreapp3.1\ComicWorld.Infrastructure.runtimeconfig.json
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\bin\Debug\netcoreapp3.1\ComicWorld.Infrastructure.runtimeconfig.dev.json
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\bin\Debug\netcoreapp3.1\ComicWorld.Infrastructure.dll
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\bin\Debug\netcoreapp3.1\ComicWorld.Infrastructure.pdb
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\bin\Debug\netcoreapp3.1\ComicWorld.Domain.dll
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\bin\Debug\netcoreapp3.1\ComicWorld.Domain.pdb
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.AssemblyInfo.cs
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.csproj.CopyComplete
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.dll
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.pdb
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Infrastructure\obj\Debug\netcoreapp3.1\ComicWorld.Infrastructure.genruntimeconfig.cache

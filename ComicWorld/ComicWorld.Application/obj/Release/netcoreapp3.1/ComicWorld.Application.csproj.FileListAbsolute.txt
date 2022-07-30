@@ -1,0 +1,13 @@
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\bin\Release\netcoreapp3.1\ComicWorld.Application.deps.json
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\bin\Release\netcoreapp3.1\ComicWorld.Application.dll
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\bin\Release\netcoreapp3.1\ComicWorld.Application.pdb
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\bin\Release\netcoreapp3.1\ComicWorld.Domain.dll
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\bin\Release\netcoreapp3.1\ComicWorld.Domain.pdb
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.AssemblyInfoInputs.cache
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.AssemblyInfo.cs
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.csproj.CopyComplete
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.dll
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Application\obj\Release\netcoreapp3.1\ComicWorld.Application.pdb
