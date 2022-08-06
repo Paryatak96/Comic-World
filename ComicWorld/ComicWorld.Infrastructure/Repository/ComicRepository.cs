@@ -11,7 +11,6 @@ namespace ComicWorld.Infrastructure.Repository
     {
         private readonly Context _context;
 
-
         public ComicRepository(Context context)
         {
             _context = context;
