@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicWorld", "ComicWorld\ComicWorld.csproj", "{36E1A2C0-037D-4E20-B1C1-31A7E76D33EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicWorld", "ComicWorld\ComicWorld.csproj", "{36E1A2C0-037D-4E20-B1C1-31A7E76D33EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E9807375-3CE4-4C87-91ED-26B0473DADC6}"
 EndProject
@@ -15,13 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E6E52FA5-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{26CE2EFC-1719-429A-865D-B61223E9126F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicWorld.Application", "ComicWorld.Application\ComicWorld.Application.csproj", "{A2FE2A48-D54E-4839-8B90-47E3EF6CED44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicWorld.Application", "ComicWorld.Application\ComicWorld.Application.csproj", "{A2FE2A48-D54E-4839-8B90-47E3EF6CED44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicWorld.Domain", "ComicWorld.Domain\ComicWorld.Domain.csproj", "{C7A4376E-C706-43D4-B264-8D86DAA24014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicWorld.Domain", "ComicWorld.Domain\ComicWorld.Domain.csproj", "{C7A4376E-C706-43D4-B264-8D86DAA24014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicWorld.Infrastructure", "ComicWorld.Infrastructure\ComicWorld.Infrastructure.csproj", "{3F9F673F-7896-44D1-BEB1-58512FA7ACB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicWorld.Infrastructure", "ComicWorld.Infrastructure\ComicWorld.Infrastructure.csproj", "{3F9F673F-7896-44D1-BEB1-58512FA7ACB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicWorld.Tests", "ComicWorld.Tests\ComicWorld.Tests.csproj", "{DCE05C09-0B53-4789-952D-970F535F8061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicWorld.Tests", "ComicWorld.Tests\ComicWorld.Tests.csproj", "{DCE05C09-0B53-4789-952D-970F535F8061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

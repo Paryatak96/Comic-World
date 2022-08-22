@@ -7,3 +7,4 @@ C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Domain\obj\Debug\netcoreap
 C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Domain\obj\Debug\netcoreapp3.1\ComicWorld.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Domain\obj\Debug\netcoreapp3.1\ComicWorld.Domain.dll
 C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Domain\obj\Debug\netcoreapp3.1\ComicWorld.Domain.pdb
+C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Domain\obj\Debug\netcoreapp3.1\ComicWorld.Domain.csproj.AssemblyReference.cache

@@ -12,6 +12,8 @@ namespace ComicWorld.Domain.Model
         public DateTime ReleaseDate { get; set; }
         public string Publisher { get; set; }
         public string ComicPhoto { get; set; }
+        public string Author { get; set; }
+        public string Drawings { get; set; }
         public int TypeId { get; set; }
         public string Description { get; set; }
         public virtual Type Type { get; set; }

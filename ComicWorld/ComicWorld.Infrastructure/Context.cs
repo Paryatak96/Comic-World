@@ -32,6 +32,8 @@ namespace ComicWorld.Infrastructure
                 .HasOne<Tag>(it => it.Tag)
                 .WithMany(i => i.ComicTags)
                 .HasForeignKey(it => it.TagId);
+
+            
         }
     }
 }

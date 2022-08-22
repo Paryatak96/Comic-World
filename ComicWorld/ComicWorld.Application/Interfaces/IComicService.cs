@@ -7,7 +7,6 @@ namespace ComicWorld.Application.Interfaces
 {
     public interface IComicService
     {
-        ListComicForListVm GetComicPublisherForList(int pageSize, int pageNo, string searchString);
         ListComicForListVm GetAllComicForList(int pageSize, int pageNo, string searchString);
         public int AddComic(NewComicVm comic);
         ComicDetailsVm GetComicDetails(int id);

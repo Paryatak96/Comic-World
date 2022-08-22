@@ -16,6 +16,8 @@ namespace ComicWorld.Application.ViewModels.Comic
         public string Publisher { get; set; }
         public DateTime ReleaseDate { get; set; }
         public string Description { get; set; }
+        public string Author { get; set; }
+        public string Drawings { get; set; }
         public string ComicPhoto { get; set; }
         public int TypeId { get; set; }
         public virtual ComicWorld.Domain.Model.Type Type { get; set; }

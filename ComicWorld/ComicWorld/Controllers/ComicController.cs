@@ -88,7 +88,7 @@ namespace ComicWorld.Controllers
         [HttpGet]
         public IActionResult GetComicFromMarvel()
         {
-            var model = _comService.GetComicPublisherForList(5, 1, "Marvel");
+            var model = _comService.GetAllComicForList(5, 1, "Marvel");
             return View(model);
         }
         [HttpPost]
@@ -98,13 +98,13 @@ namespace ComicWorld.Controllers
             {
                 pageNo = 1;
             }
-            var model = _comService.GetComicPublisherForList(pageSize, pageNo.Value, searchString);
+            var model = _comService.GetAllComicForList(pageSize, pageNo.Value, searchString);
             return View(model);
         }
         [HttpGet]
         public IActionResult GetComicFromDC()
         {
-            var model = _comService.GetComicPublisherForList(5, 1, "DC Comics");
+            var model = _comService.GetAllComicForList(5, 1, "DC Comics");
             return View(model);
         }
         [HttpPost]
@@ -114,13 +114,13 @@ namespace ComicWorld.Controllers
             {
                 pageNo = 1;
             }
-            var model = _comService.GetComicPublisherForList(pageSize, pageNo.Value, searchString);
+            var model = _comService.GetAllComicForList(pageSize, pageNo.Value, searchString);
             return View(model);
         }
         [HttpGet]
         public IActionResult GetComicFromImage()
         {
-            var model = _comService.GetComicPublisherForList(5, 1, "Image");
+            var model = _comService.GetAllComicForList(5, 1, "Image");
             return View(model);
         }
         [HttpPost]
@@ -130,13 +130,13 @@ namespace ComicWorld.Controllers
             {
                 pageNo = 1;
             }
-            var model = _comService.GetComicPublisherForList(pageSize, pageNo.Value, searchString);
+            var model = _comService.GetAllComicForList(pageSize, pageNo.Value, searchString);
             return View(model);
         }
         [HttpGet]
         public IActionResult GetComicFromDarkHorse()
         {
-            var model = _comService.GetComicPublisherForList(5, 1, "Dark Horse");
+            var model = _comService.GetAllComicForList(5, 1, "Dark Horse");
             return View(model);
         }
         [HttpPost]
@@ -146,7 +146,7 @@ namespace ComicWorld.Controllers
             {
                 pageNo = 1;
             }
-            var model = _comService.GetComicPublisherForList(pageSize, pageNo.Value, searchString);
+            var model = _comService.GetAllComicForList(pageSize, pageNo.Value, searchString);
             return View(model);
         }
         public IActionResult DeleteTypeComic(int id)

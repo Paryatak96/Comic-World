@@ -60,6 +60,8 @@ namespace ComicWorld.Infrastructure.Repository
             _context.Entry(comic).Property("Description").IsModified = true;
             _context.Entry(comic).Property("TypeId").IsModified = true;
             _context.Entry(comic).Property("ComicPhoto").IsModified = true;
+            _context.Entry(comic).Property("Author").IsModified = true;
+            _context.Entry(comic).Property("Drawings").IsModified = true;
             _context.SaveChanges();
         }
 

@@ -9,26 +9,23 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3" style="padding-top: 0;padding-bottom:0;">
-            <div class="container">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">ComicWorld</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="
+                padding-bottom: 0px; 
+                padding-top: 0px;
+                border-top: 0px;
+                border-bottom: 0px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ComicWorld</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Comic" asp-action="Index">Find Comic</a>
+                            <a class="nav-link" asp-controller="Comic" asp-action="Index">Find Comic</a>
                         </li>
-                        @*<li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Comic" asp-action="AddComic">Add Comic to List</a>
-                        </li>*@
-                        @*<li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Comic" asp-action="AddType">Add Type for Comic</a>
-                        </li>*@
                     </ul>
+                    <partial name="_LoginPartial"/>
                 </div>
             </div>
         </nav>
@@ -39,7 +36,7 @@
         </main>
     </div>
     <footer class="border-top footer text-muted bg-dark text-center">
-        <div class="container">
+        <div class="container" >
             &copy; 2022 ComicWorld by Sebastian Liszewski  @*<a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
         </div>
     </footer>

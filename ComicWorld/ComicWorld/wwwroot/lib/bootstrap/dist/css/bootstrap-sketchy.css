@@ -4347,7 +4347,6 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 
 .navbar .container,
@@ -4373,7 +4372,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
+  text-decoration: double;
 }
 
 .navbar-nav {
@@ -4392,7 +4391,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav:hover .nav-link:hover{
-    background-color: #303030;
+    background-color: #808080;
+    font-size: 120%;
+}
+
+.navbar-nav:active .nav-link:active {
+    background-color: deepskyblue;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4401,9 +4405,9 @@ input[type="button"].btn-block {
 }
 
 .navbar-text {
-  display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .navbar-collapse {
@@ -4420,12 +4424,12 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 2px solid transparent;
+  /*border: 2px solid transparent;*/
   border-radius: 25px;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
+  text-decoration: double;
 }
 
 .navbar-toggler-icon {
@@ -10347,6 +10351,22 @@ a.text-dark:hover, a.text-dark:focus {
 .btn {
   border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
   text-decoration: none;
+}
+
+.mybuttonlink {
+    display: inline-block;
+    border: none;
+    font-family: Neucha, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #555;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    width: auto;
+}
+
+.mybuttonlink:hover {
+    background-color: #808080;
+    font-size: 120%;
 }
 
 .btn-lg, .btn-group-lg > .btn {

@@ -31,7 +31,9 @@ namespace ComicWorld.Application.Services
 
         public ListComicForListVm GetAllComicForList(int pageSize, int pageNo, string searchString)
         {
-            var comics = _comicRepo.GetAllComics().Where(p => p.Title.StartsWith(searchString))
+            var comics = _comicRepo.GetAllComics().Where(p => p.Title.StartsWith(searchString) || 
+            p.Author.StartsWith(searchString) || p.Publisher.StartsWith(searchString) || 
+            p.Drawings.StartsWith(searchString))
                 .ProjectTo<ComicForListVm>(_mapper.ConfigurationProvider).ToList();
             var comicToShow = comics.Skip(pageSize * (pageNo - 1)).Take(pageSize).ToList();
             var comicList = new ListComicForListVm()
@@ -76,21 +78,6 @@ namespace ComicWorld.Application.Services
             _comicRepo.DeleteComic(id);
         }
 
-        public ListComicForListVm GetComicPublisherForList(int pageSize, int pageNo, string searchString)
-        {
-            var comics = _comicRepo.GetAllComics().Where(p => p.Publisher.StartsWith(searchString))
-            .ProjectTo<ComicForListVm>(_mapper.ConfigurationProvider).ToList();
-            var comicToShow = comics.Skip(pageSize * (pageNo - 1)).Take(pageSize).ToList();
-            var comicList = new ListComicForListVm()
-            {
-                PageSize = pageSize,
-                CurrentPage = pageNo,
-                SearchString = searchString,
-                Comics = comicToShow,
-                Count = comics.Count
-            };
-            return comicList;
-        }
 
         public void DeleteTypeComic(int id)
         {

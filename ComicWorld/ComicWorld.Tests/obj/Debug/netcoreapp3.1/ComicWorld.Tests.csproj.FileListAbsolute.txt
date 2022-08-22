@@ -95,4 +95,3 @@ C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Tests\obj\Debug\netcoreapp
 C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Tests\obj\Debug\netcoreapp3.1\ComicWorld.Tests.dll
 C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Tests\obj\Debug\netcoreapp3.1\ComicWorld.Tests.pdb
 C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Tests\obj\Debug\netcoreapp3.1\ComicWorld.Tests.genruntimeconfig.cache
-C:\Users\Sebastian\Source\Repos\ComicWorld\ComicWorld.Tests\obj\Debug\netcoreapp3.1\ComicWorld.Tests.csproj.AssemblyReference.cache

@@ -19,6 +19,7 @@ namespace ComicWorld.Domain.Interface
         int AddType(ComicWorld.Domain.Model.Type type);
 
         void UpdateComic(Comic comic);
+
         void DeleteTypeComic(int id);
     }
 }
